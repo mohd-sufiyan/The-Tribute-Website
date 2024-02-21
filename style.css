@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 10px solid #1d1e4c;
+    background-color: #e5e5fd;;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 100px 170px 100px 170px;
+}
+
+#img {
+    background-image: url("images/apj.jpg");
+    background-size: cover;
+    height: 320px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.top-section h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #1d1e4c;
+    margin: 0;
+}
+
+.top-section h4 {
+    font-size: 30px;
+    text-align: end;
+    margin: 0;
+}
+
+.middle-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.middle-section h2 {
+    font-size: 3.5rem;
+    font-weight: lighter;
+    margin: 1.8rem 0 1.8rem 0;
+}
+
+.middle-section p {
+    font-size: 1.3rem;
+    text-align: justify;
+    line-height: 2rem;
+    letter-spacing: 0.5px;
+    margin-top: 0%;
+}
+
+.last-section li {
+    line-height: 2rem;
+}
+
+footer {
+    margin-top: 4rem;
+    text-align: end;
+}
